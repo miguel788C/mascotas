@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html tang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <title>mascotas</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label class="lbl-menu" for="btn-menu">
+        <span id="spn1"></span>
+        <span id="spn2"></span>
+        <span id="spn3"></span>
+        </label>  
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="nu.html">Nuestro trabajo</a>
+            <a href="ap.html">Apoyenos</a>
+            <a href="not.html">Noticias</a>
+            <a href="co.html">Contactos</a>
+        </nav>
+    </header>
+    <section id="banner">
+        <div class="contenedor">
+            <img src="img/logo.png">
+        </div>
+    </section>
+    <section id="blog">
+        <div class="contenedor">
+            <article>
+                <a name="3">
+                    <div class="reg">
+                        <form>
+                            <h3 class="titulo">Contactos!</h3>
+                            <label>Nombres: </label><br>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombres"><br>
+                            <label>Apellidos: </label><br>
+                            <input type="text" name="apellido" id="apellido" placeholder="Apellidos"><br>
+                            <label>Edad: </label><br>
+                            <input type="number" name="edad" id="edad" max="100"><br>
+                            <label>G-mail: </label><br>
+                            <input type="email" name="email" id="email" for="email" required>
+                            
+                            <input type="text"><br>
+                            <label>Escriba su comentario</label><br>
+                            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea><br>
+                            <center><button type="button">Enviar</button>
+                            <button type="reset">Limpiar</button></center>
+                        </form>
+                    </div>
+                </a>
+            </article>
+            <article class="portafolio">
+                    <div class="contenedor">
+                        <h3 class="titulo">Galeria</h3>
+                        <p>Enfermedades y heridas más frecuentes en nuestras mascotas</p>
+                        <div class="galeria-port">
+                            <div class="imagen-port">
+                                <img src="img/1.jpg" >
+                                <div class="hover-galeria">
+                                    <a href="https://ar.zoetis.com/conditions/caninos/el-moquillo-canino.aspx"><img src="img/pata.png"></a>
+                                    <p>MOQUILLO CANINO</p>
+                                </div>
+                            </div>
+                            <div class="imagen-port">
+                                <img src="img/2.jpg">
+                                <div class="hover-galeria">
+                                    <a href="https://www.acvs.org/small-animal-es/fractured-limbs"><img src="img/pata.png"></a>
+                                    <p>FRACTURAS</p>
+                                </div>
+                            </div>
+                            <div class="imagen-port">
+                                <img src="img/3.jpg">
+                                <div class="hover-galeria">
+                                    <a href="https://www.anicura.es/consejos-de-salud-para-mascotas/perro/la-otitis-en-los-perros/"><img src="img/pata.png"></a>
+                                    <p>LA OTITIS</p>
+                                </div>
+                            </div>
+                            <div class="imagen-port">
+                                <img src="img/4.jpg">
+                                <div class="hover-galeria">
+                                    <a href="https://misanimales.com/patas-hinchadas-perros-causas-sintomas/"><img src="img/pata.png"></a>
+                                    <p>PATA HINCHADA</p>
+                                </div>
+                            </div>
+                            <div class="imagen-port">
+                                <img src="img/5.jpg">
+                                <div class="hover-galeria">
+                                    <a href="https://www.redcanina.es/conjuntivitis-en-los-perros/"><img src="img/pata.png"></a>
+                                    <p>CONJUNTIVITIS</p>
+                                </div>
+                            </div>
+                            <div class="imagen-port">
+                            <img src="img/6.jpg">
+                                <div class="hover-galeria">
+                                    <a href="https://www.rionegro.com.ar/los-riesgos-que-generan-las-heridas-mal-curadas-1291405/"><img src="img/pata.png"></a>
+                                    <p>HERIDAS MAL CURADAS</p>
+                                </div>
+                            </div>
+                            <div class="imagen-port">
+                                <img src="img/7.jpg">
+                                <div class="hover-galeria">
+                                    <a href="https://www.mayoclinic.org/es-es/diseases-conditions/pet-allergy/symptoms-causes/syc-20352192#:~:text=La%20alergia%20a%20alguna%20mascota,)%2C%20como%20estornudar%20y%20moquear."><img src="img/pata.png"></a>
+                                    <p>ALERGIAS</p>
+                                </div>
+                            </div>
+                            <div class="imagen-port">
+                                <img src="img/8.jpg">
+                                <div class="hover-galeria">
+                                    <a href="https://www.expertoanimal.com/miasis-en-gatos-tratamiento-y-remedios-caseros-24711.html"><img src="img/pata.png"></a>
+                                    <p>MIASIS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+        </div>
+    </section>
+    <footer>
+        <div class="sociales">
+            <h3 class="icon-paw">SAGRADO CORAZÓN</h3>
+            <p>¿Ayuda? Whatsapp <a class=" icon-whatsapp" href="https://wa.me/65646930">+591 65646930 (BOL)</a></p>
+            <p><a href="co.html">Contactos</a></p>
+            <p><a href="nu.html">Nuestro trabajo</a></p>
+            <p><a href="not.html">Noticias</a></p>
+            <a class="icon-facebook-squared"></a>            
+            <a class="icon-twitter-squared"></a>
+            <p class="copy">&copy;2021 M&C</p>
+        </div>
+    </footer>
+</body>
+</html>

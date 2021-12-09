@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html tang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <title>mascotas</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label class="lbl-menu" for="btn-menu">
+        <span id="spn1"></span>
+        <span id="spn2"></span>
+        <span id="spn3"></span>
+        </label>  
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="nu.html">Nuestro trabajo</a>
+            <a href="ap.html">Apoyenos</a>
+            <a href="not.html">Noticias</a>
+            <a href="co.html">Contactos</a>
+        </nav>
+    </header>
+    <section id="banner">
+        <div class="contenedor">
+            <img src="img/logo.png">
+        </div>
+    </section>
+    <section id="blog">
+        <div class="contenedor">
+            <article>
+                <a name="3">
+                    <div class="reg">
+                        <form>
+                            <h3 class="titulo">Donación!</h3>
+                            <label for="comunicacion[]">Selecicione su donación</label><br>
+                            <input type="checkbox" name="comunicacion[]" id="telefono">Donar mensualmente<br>
+                            <input type="checkbox" name="comunicacion[]" id="telefono">Donación puntual<br>
+                            <label for="comunicacion[]">Selecicione su monto</label><br>
+                            <input type="checkbox" name="comunicacion[]" id="telefono">500bs<br>
+                            <input type="checkbox" name="comunicacion[]" id="telefono">200bs<br>
+                            <input type="checkbox" name="comunicacion[]" id="telefono">100bs<br>
+                            <input type="checkbox" name="comunicacion[]" id="telefono">50bs<br>
+                            <label for="comunicacion[]">Selecicione método</label><br>
+                            <input type="checkbox" name="comunicacion[]" id="telefono">PayPal
+                            <input type="checkbox" name="comunicacion[]" id="telefono"> Tarjeta de crédito
+                            <label for="comunicacion[]">Información personal</label><br>
+                            <label>Nombres: </label><br>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombres"><br>
+                            <label>Apellidos: </label><br>
+                            <input type="text" name="apellido" id="apellido" placeholder="Apellidos"><br>
+                            <label>G-mail: </label><br>
+                            <input type="email" name="email" id="email" for="email" required><br>
+                            <label for="comunicacion[]">Información de la tarjeta de crédito</label><br>
+                            <input type="text" name="nombre" id="nombre" placeholder="Este es un pago encriptado SSL seguro."><br>
+                            <label for="comunicacion[]">Número de tarjeta</label><br>
+                            <input type="text" name="nombre" id="nombre" placeholder="Card Number"><br>
+                            <br>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre del titular de la targeta"><br>
+                            <label for="comunicacion[]">CVC</label><br>
+                            <input type="text" name="nombre" id="nombre" placeholder="CVC"><br>
+                            <label for="comunicacion[]">Vencimiento</label><br>
+                            <input type="text" name="nombre" id="nombre" placeholder="MM/YY"><br>
+                            <center><button type="button">Enviar</button>
+                            <button type="reset">Limpiar</button></center>
+                        </form>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="sociales">
+            <h3 class="icon-paw">SAGRADO CORAZÓN</h3>
+            <p>¿Ayuda? Whatsapp <a class=" icon-whatsapp" href="https://wa.me/65646930">+591 65646930 (BOL)</a></p>
+            <p><a href="co.html">Contactos</a></p>
+            <p><a href="nu.html">Nuestro trabajo</a></p>
+            <p><a href="not.html">Noticias</a></p>
+            <a class="icon-facebook-squared"></a>            
+            <a class="icon-twitter-squared"></a>
+            <p class="copy">&copy;2021 M&C</p>
+        </div>
+    </footer>
+</body>
+</html>
